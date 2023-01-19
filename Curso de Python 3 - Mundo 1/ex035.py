@@ -1,6 +1,6 @@
 #Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo
-
-r1 = float(input('\nQual o comprimento da primeira reta? '))
+     
+r1 = float(input('\n\033[1;32;44mQual o comprimento da primeira reta?\033[m '))
 r2 = float(input('Qual o comprimento da segunda reta? '))
 r3 = float(input('Qual o comprimento da terceira reta? '))
 
