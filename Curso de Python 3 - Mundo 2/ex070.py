@@ -14,12 +14,8 @@ while True:
     if price > 1000:
         mil += 1
         
-    c += 1 #Se houver apenas um item ele será o menor valor (maisbarato e nome dele)
-    if c == 1:
-        maisbarato = price
-        nomebarato = nome
-        
-    if c != 1 and price < maisbarato: #Caso um novo item seja mais barato ele se torna o (maisbarato)
+    c += 1 #Se houver apenas um item ele será o menor valor (maisbarato e nome dele) ou se o novo price é mais barato
+    if c == 1 or maisbarato > price:
         maisbarato = price
         nomebarato = nome
         
