@@ -9,7 +9,7 @@ print('-'*40)
 c = 0
 v = 1
 while c != 18:
-    print(f'{produtos[c]:>12}{"..................R$":<0}{produtos[v]:>8}')
+    print(f'{produtos[c]:.<30}R${produtos[v]:>8}')
     c += 2
     v += 2
 print('')
