@@ -8,4 +8,3 @@ for c in palavras:
         if i in 'aeiou':
             print(i, end=' ')        
 print('\n')
-    
